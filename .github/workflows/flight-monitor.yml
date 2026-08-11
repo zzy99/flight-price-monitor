@@ -14,6 +14,7 @@ jobs:
     timeout-minutes: 10
     env:
       FLYAI_API_KEY: ${{ secrets.FLYAI_API_KEY }}
+      SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
       FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
       WECHAT_WORK_WEBHOOK_URL: ${{ secrets.WECHAT_WORK_WEBHOOK_URL }}
     steps:
