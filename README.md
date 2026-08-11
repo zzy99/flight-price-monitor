@@ -9,6 +9,7 @@ Daily GitHub Actions price checks for:
 
 1. Create an empty GitHub repository and upload this directory.
 2. Add repository secrets in **Settings → Secrets and variables → Actions**:
+   - `SERVERCHAN_SENDKEY` — recommended: Server Chan³ SendKey. The workflow sends the daily report to WeChat through Server Chan.
    - `FEISHU_WEBHOOK_URL` — optional Feishu/Lark bot webhook.
    - `WECHAT_WORK_WEBHOOK_URL` — optional WeCom bot webhook.
    - `FLYAI_API_KEY` — optional, unlocks full FlyAI service.

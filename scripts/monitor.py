@@ -59,6 +59,8 @@ def post(url, body):
 
 
 def notify(text):
+    if sendkey := os.getenv("SERVERCHAN_SENDKEY"):
+        post(f"https://sctapi.ftqq.com/{sendkey}.send", {"title": "每日航班价格监控", "desp": text})
     if url := os.getenv("FEISHU_WEBHOOK_URL"):
         post(url, {"msg_type": "text", "content": {"text": text}})
     if url := os.getenv("WECHAT_WORK_WEBHOOK_URL"):
