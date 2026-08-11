@@ -1,0 +1,28 @@
+{
+  "flights": {
+    "HO1229": {
+      "number": "HO1229",
+      "origin": "上海",
+      "destination": "丽江",
+      "date": "2026-09-12",
+      "price": 1210.0,
+      "cabin": "经济舱",
+      "departure": "2026-09-12 14:55:00",
+      "arrival": "2026-09-12 18:40:00",
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2L6xl5",
+      "checked_at": "2026-08-11T15:24:21.841604+00:00"
+    },
+    "MU9703": {
+      "number": "MU9703",
+      "origin": "大理",
+      "destination": "上海",
+      "date": "2026-09-18",
+      "price": 1400.0,
+      "cabin": "经济舱",
+      "departure": "2026-09-18 21:10:00",
+      "arrival": "2026-09-19 01:05:00",
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1R5uCc",
+      "checked_at": "2026-08-11T15:24:23.184100+00:00"
+    }
+  }
+}
