@@ -2,7 +2,7 @@ name: Flight price monitor
 
 on:
   schedule:
-    - cron: "0 1 * * *" # 09:00 Asia/Shanghai
+    - cron: '*/5 * * * *' # Every 5 minutes (testing)
   workflow_dispatch:
 
 permissions:
