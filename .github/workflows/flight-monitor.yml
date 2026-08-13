@@ -2,7 +2,7 @@ name: Flight price monitor
 
 on:
   schedule:
-    - cron: '0 1 * * *' 
+    - cron: '29 1 * * *' 
   workflow_dispatch:
 
 permissions:
