@@ -5,12 +5,12 @@
       "origin": "上海",
       "destination": "丽江",
       "date": "2026-09-12",
-      "price": 1500.0,
+      "price": 1100.0,
       "cabin": "经济舱",
       "departure": "2026-09-12 14:55:00",
       "arrival": "2026-09-12 18:40:00",
-      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2J44tw",
-      "checked_at": "2026-08-13T02:17:59.690098+00:00"
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F2S65E8",
+      "checked_at": "2026-08-14T03:36:40.351468+00:00"
     },
     "MU9703": {
       "number": "MU9703",
@@ -21,8 +21,8 @@
       "cabin": "经济舱",
       "departure": "2026-09-18 21:10:00",
       "arrival": "2026-09-19 01:05:00",
-      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0hlGBm",
-      "checked_at": "2026-08-13T02:18:01.922261+00:00"
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0QUjbx",
+      "checked_at": "2026-08-14T03:36:42.416067+00:00"
     }
   }
 }
