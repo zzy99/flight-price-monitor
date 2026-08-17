@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 HISTORY = ROOT / "data" / "prices.json"
 FLYAI_BIN = os.getenv("FLYAI_BIN", "flyai.cmd" if os.name == "nt" else "flyai")
 FLIGHTS = (
-    {"number": "HO1229", "origin": "上海", "destination": "丽江", "date": "2026-09-12"},
-    {"number": "MU9703", "origin": "大理", "destination": "上海", "date": "2026-09-18"},
+    {"number": "9C7115", "origin": "上海", "destination": "丽江", "date": "2026-09-13"},
+    {"number": "MU9703", "origin": "大理", "destination": "上海", "date": "2026-09-19"},
 )
 
 
