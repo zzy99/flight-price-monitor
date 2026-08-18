@@ -21,8 +21,8 @@
       "cabin": "经济舱",
       "departure": "2026-09-19 21:10:00",
       "arrival": "2026-09-20 00:45:00",
-      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F05vx80",
-      "checked_at": "2026-08-17T05:53:05.406814+00:00"
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F33i4ng",
+      "checked_at": "2026-08-18T02:34:51.611840+00:00"
     },
     "9C7115": {
       "number": "9C7115",
@@ -33,8 +33,8 @@
       "cabin": "经济舱",
       "departure": "2026-09-13 13:45:00",
       "arrival": "2026-09-13 17:35:00",
-      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0IH4Af",
-      "checked_at": "2026-08-17T05:53:03.237719+00:00"
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0ZjRP4",
+      "checked_at": "2026-08-18T02:34:49.438870+00:00"
     }
   }
 }
