@@ -21,20 +21,20 @@
       "cabin": "经济舱",
       "departure": "2026-09-19 21:10:00",
       "arrival": "2026-09-20 00:45:00",
-      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F33i4ng",
-      "checked_at": "2026-08-18T02:34:51.611840+00:00"
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0Skru9",
+      "checked_at": "2026-08-19T02:36:40.910192+00:00"
     },
     "9C7115": {
       "number": "9C7115",
       "origin": "上海",
       "destination": "丽江",
       "date": "2026-09-13",
-      "price": 660.0,
+      "price": 530.0,
       "cabin": "经济舱",
       "departure": "2026-09-13 13:45:00",
       "arrival": "2026-09-13 17:35:00",
-      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F0ZjRP4",
-      "checked_at": "2026-08-18T02:34:49.438870+00:00"
+      "jump_url": "https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2F1EU5Nl",
+      "checked_at": "2026-08-19T02:36:39.916624+00:00"
     }
   }
 }
