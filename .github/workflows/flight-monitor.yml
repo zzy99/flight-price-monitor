@@ -1,34 +1,34 @@
-name: Flight price monitor
+# name: Flight price monitor
 
-on:
-  schedule:
-    - cron: '29 1 * * *' 
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '29 1 * * *' 
+#   workflow_dispatch:
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  check-prices:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    env:
-      FLYAI_API_KEY: ${{ secrets.FLYAI_API_KEY }}
-      SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
-      FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
-      WECHAT_WORK_WEBHOOK_URL: ${{ secrets.WECHAT_WORK_WEBHOOK_URL }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-      - run: npm install --global @fly-ai/flyai-cli
-      - run: python3 scripts/monitor.py
-      - name: Commit price history
-        run: |
-          git diff --quiet -- data/prices.json && exit 0
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prices.json
-          git commit -m "chore: update flight price history"
-          git push
+# jobs:
+#   check-prices:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 10
+#     env:
+#       FLYAI_API_KEY: ${{ secrets.FLYAI_API_KEY }}
+#       SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+#       FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+#       WECHAT_WORK_WEBHOOK_URL: ${{ secrets.WECHAT_WORK_WEBHOOK_URL }}
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 24
+#       - run: npm install --global @fly-ai/flyai-cli
+#       - run: python3 scripts/monitor.py
+#       - name: Commit price history
+#         run: |
+#           git diff --quiet -- data/prices.json && exit 0
+#           git config user.name "github-actions[bot]"
+#           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#           git add data/prices.json
+#           git commit -m "chore: update flight price history"
+#           git push
